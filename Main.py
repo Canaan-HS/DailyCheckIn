@@ -14,8 +14,8 @@ def LevelinfiniteStart(Local=True):
 
     Task = CreateTask(
         LogPath,
-        LevelinfiniteData["headers"],
-        LevelinfiniteData["cookies"]
+        LevelinfiniteData['headers'],
+        LevelinfiniteData['cookies']
     )
 
     Task.LeveCheckIn()
@@ -27,12 +27,25 @@ def DiscordStart(Local=True):
 
     Task = CreateTask(
         LogPath,
-        DiscordData["headers"],
-        DiscordData["cookies"],
-        DiscordData["data"]
+        DiscordData['headers'],
+        DiscordData['cookies'],
+        DiscordData['data']
     )
 
     Task.DiscordSignIn()
+    
+def Hoyolab(Local=True):
+    LogPath = current_path / "Log/Hoyolab.log"
+    HoyolabData = Json_Read(current_path / "Data/Hoyolab.json") if Local else Json_Parse(os.getenv("HoyolabData"))
+
+    Task = CreateTask(
+        LogPath,
+        HoyolabData['headers'],
+        HoyolabData['cookies']
+    )
+
+    Task.HoyolabCheckIn()
 
 LevelinfiniteStart(False)
 DiscordStart(False)
+# Hoyolab()

@@ -25,23 +25,45 @@ class CreateTask(CreateSend):
             sys.__excepthook__(*args),
         )
 
-    def LeveCheckIn(self):
+    def DiscordSignIn(self):
+        Discoed = self.http_post(DiscordAPI["SignIn"], self.Headers, self.Cookies, self.Data)
+
+        try:
+            logging.error(f"Discord: {Discoed.json()}")
+        except:
+            if Discoed.text == "":
+                logging.info("Discord: 簽到成功")
+
+    def HoyolabCheckIn(self):
 
         StateParse = {
-            "CheckIn": lambda code, msg: "簽到成功" if code == 0 and msg == "ok" else "已經簽到" if code == 1001009 and msg == "system error" else "簽到失敗" if code == 300001 else "未知錯誤",
-            "StageCheckIn": lambda code, msg: "簽到成功" if code == 0 and msg == "ok" else "已經簽到" if code == 1002007 and "stageTaskAllComplete" in msg else "簽到失敗" if code == 300001 else "未知錯誤",
+            "GenshInimpact": lambda retcode: "", # -5003
+            "HonkaiStarRail": lambda retcode: "", # -5003
+            "ZenlessZoneZero": lambda retcode: "", # -500012
         }
 
         async def Factory():
             works = [
-                self.async_http_post(
-                    Name,
-                    Work["Url"],
-                    {"task_id": Work["ID"]},
-                    self.Headers,
-                    self.Cookies
-                )
-                for Name, Work in LeveCheckInAPI.items()
+                self.async_http_post(Name, Url, self.Headers, self.Cookies)
+                for Name, Url in HoyolabAPI.items()
+            ]
+
+            for result in await asyncio.gather(*works):
+                print(result)
+
+        asyncio.run(Factory())
+
+    def LeveCheckIn(self):
+
+        StateParse = {
+            "CheckIn": lambda code: "簽到成功" if code == 0 else "已經簽到" if code == 1001009 else "簽到失敗" if code == 300001 else "參數錯誤",
+            "StageCheckIn": lambda code: "簽到成功" if code == 0 else "已經簽到" if code == 1002007 else "簽到失敗" if code == 300001 else "參數錯誤",
+        }
+
+        async def Factory():
+            works = [
+                self.async_http_post(Name, Url, self.Headers, self.Cookies)
+                for Name, Url in LeveCheckInAPI.items()
             ]
 
             for result in await asyncio.gather(*works):
@@ -57,12 +79,3 @@ class CreateTask(CreateSend):
         TaskStatus = self.http_post(LeveStateAPI["TaskStatus"], self.Headers, self.Cookies)
         for State in TaskStatus.json()['data']['tasks']:
             logging.info(f"任務: {State['task_name']} | 代號: {State['task_id']} | 完成: {State['reward_infos'][0]['is_completed']}")
-
-    def DiscordSignIn(self):
-        Discoed = self.http_post(DiscordAPI["SignIn"], self.Headers, self.Cookies, self.Data)
-
-        try:
-            logging.error(f"Discord: {Discoed.json()}")
-        except:
-            if Discoed.text == "":
-                logging.info("Discord: 簽到成功")
