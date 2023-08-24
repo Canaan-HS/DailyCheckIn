@@ -35,7 +35,7 @@ def DiscordStart(Local=True):
     Task.DiscordSignIn()
     
 def Hoyolab(Local=True):
-    LogPath = current_path / "Log/Hoyolab.log"
+    LogPath = current_path / "Log/HoyolabInfo.log"
     HoyolabData = Json_Read(current_path / "Data/Hoyolab.json") if Local else Json_Parse(os.getenv("HoyolabData"))
 
     Task = CreateTask(
@@ -46,6 +46,7 @@ def Hoyolab(Local=True):
 
     Task.HoyolabCheckIn()
 
-LevelinfiniteStart(False)
-DiscordStart(False)
-# Hoyolab()
+if __name__ == "__main__":
+    LevelinfiniteStart(False)
+    DiscordStart(False)
+    # Hoyolab()
