@@ -4,10 +4,6 @@ name: Auto CheckIn
 on:
   schedule:
     - cron: "0 16 * * *"
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/Auto.yml"
   workflow_dispatch:
 
 permissions:
