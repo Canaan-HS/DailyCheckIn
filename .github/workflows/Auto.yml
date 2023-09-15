@@ -33,6 +33,7 @@ jobs:
 
       - name: Run Python
         env:
+          HoyolabData: ${{ secrets.HOYOLAB_COOKIE }}
           DiscordData: ${{ secrets.DISCORD_COOKIE }}
           LevelinfiniteData: ${{ secrets.LEVELINFINITE_COOKIE }}
         run: |
