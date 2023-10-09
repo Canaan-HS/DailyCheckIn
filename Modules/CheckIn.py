@@ -11,17 +11,22 @@ class CreateTask(CreateSend):
         self.Cookies = Cookies
         self.Data = Data
 
-        logging.basicConfig(
-            level=logging.INFO,
-            format="%(asctime)s - %(levelname)s: %(message)s",
-            datefmt="%Y-%m-%d %H:%M:%S",
-            filename=str(LogPath),
-            encoding="utf-8",
-            force=True
-        )
+        Config = {
+            "level": logging.INFO,
+            "format": "%(asctime)s - %(levelname)s: %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S",
+            "force": True
+        }
 
+        if LogPath is not None:
+            Config.update({
+                "filename": str(LogPath),
+                "encoding": "utf-8"
+            })
+ 
+        logging.basicConfig(**Config)
         sys.excepthook = lambda *args: (
-            logging.error(exc_info=args),
+            logging.error("Exception", exc_info=args),
             sys.__excepthook__(*args),
         )
 
@@ -39,7 +44,7 @@ class CreateTask(CreateSend):
         StateParse = {
             "GenshInimpact": lambda retcode: "", # -5003
             "HonkaiStarRail": lambda retcode: "", # -5003
-            "ZenlessZoneZero": lambda retcode: "", # -500012
+            "ZenlessZoneZero": lambda retcode: "", # -500012, -500004
         }
 
         async def Factory():
@@ -49,7 +54,7 @@ class CreateTask(CreateSend):
             ]
 
             for result in await asyncio.gather(*works):
-                print(result)
+                logging.info(result)
 
         asyncio.run(Factory())
 
@@ -67,7 +72,7 @@ class CreateTask(CreateSend):
             ]
 
             for result in await asyncio.gather(*works):
-                state = StateParse.get(result['Name'], lambda *args: result)(result['code'], result['msg'])
+                state = StateParse.get(result['Name'], lambda *args: result)(result['code'])
                 logging.info(f"{result['Name']}: {state}")
 
         asyncio.run(Factory())
