@@ -1,0 +1,10 @@
+2025-03-24 16:06:12 - INFO: HTTP Request: POST https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/DailyCheckIn?task_id=15 "HTTP/2 200 OK"
+2025-03-24 16:06:12 - INFO: HTTP Request: POST https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/DailyStageCheckIn?task_id=58 "HTTP/2 200 OK"
+2025-03-24 16:06:12 - INFO: CheckIn: 已經簽到
+2025-03-24 16:06:12 - INFO: StageCheckIn: 已經簽到
+2025-03-24 16:06:13 - INFO: HTTP Request: POST https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/GetUserTotalPoints "HTTP/2 200 OK"
+2025-03-24 16:06:13 - INFO: Points: 3529
+2025-03-24 16:06:13 - INFO: HTTP Request: POST https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/GetTaskListWithStatusV2 "HTTP/2 200 OK"
+2025-03-24 16:06:13 - INFO: 任務: [Daily] Play Game | 代號: 14 | 完成: False
+2025-03-24 16:06:13 - INFO: 任務: Daily Sign-in | 代號: 15 | 完成: True
+2025-03-24 16:06:13 - INFO: 任務: Top Up | 代號: 55 | 完成: False
