@@ -42,9 +42,9 @@ class CreateTask(CreateSend):
     def HoyolabCheckIn(self):
 
         StateParse = {
-            "GenshInimpact": lambda retcode: "", # -5003
-            "HonkaiStarRail": lambda retcode: "", # -5003
-            "ZenlessZoneZero": lambda retcode: "", # -500012, -500004
+            "GenshInimpact": lambda retcode: "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗",
+            "HonkaiStarRail": lambda retcode: "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗",
+            # "ZenlessZoneZero": lambda retcode: "簽到成功" if retcode == 0 else "已經簽到", # -500012 "已經簽到", -500004 "操作頻繁"
         }
 
         async def Factory():
@@ -54,7 +54,8 @@ class CreateTask(CreateSend):
             ]
 
             for result in await asyncio.gather(*works):
-                logging.info(result)
+                state = StateParse.get(result['Name'], lambda *args: result)(result['retcode'])
+                logging.info(f"{result['Name']}: {state}")
 
         asyncio.run(Factory())
 
