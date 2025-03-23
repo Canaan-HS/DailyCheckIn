@@ -1,6 +1,3 @@
 *.json
-
 __pycache__
-
-!Data/Discord_Template.json
-!Data/Levelinfinite_Template.json
+!Data/*_Template.json

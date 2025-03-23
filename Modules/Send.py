@@ -4,11 +4,9 @@ class CreateSend:
     def __init__(self):
         self.Client = httpx.Client(http2=True)
 
-    async def async_http_post(self, Name, Url, Id, Headers, Cookies) -> dict:
+    async def async_http_post(self, Name, Url, Headers, Cookies) -> dict:
         async with httpx.AsyncClient(http2=True) as client:
-            response = await client.post(
-                Url, json=Id, headers=Headers, cookies=Cookies
-            )
+            response = await client.post(Url, headers=Headers, cookies=Cookies)
             return {"Name": Name} | response.json()
 
     def http_post(self, Url, Headers, Cookies, Data={}):
