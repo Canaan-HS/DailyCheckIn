@@ -1,0 +1,56 @@
+# GitHub Actions
+name: Auto CheckIn
+
+on:
+  schedule:
+    - cron: "0 16 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/Auto.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  CheckIn:
+    name: Auto Run
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: Setting Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13.2"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Python
+        env:
+          DiscordData: ${{ secrets.DISCORD_COOKIE }}
+          LevelinfiniteData: ${{ secrets.LEVELINFINITE_COOKIE }}
+        run: |
+          python Main.py
+
+      - name: Commit Log
+        run: |
+          git config --global user.name 'Canaan-HS'
+          git config --global user.email 's3459897@gmail.com'
+
+          if [[ -n $(git status -s) ]]; then
+            git add -A
+            git commit -m "Run log"
+            git push
+          else
+            echo "No changes to commit"
+          fi
