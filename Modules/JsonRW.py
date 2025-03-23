@@ -11,6 +11,13 @@ def Json_Read(path: str) -> dict:
         print(f"{path} - 例外錯誤:", e)
         return {}
 
+def Json_Parse(text: str) -> dict:
+    try:
+        return json.loads(text)
+    except Exception as e:
+        print(f"{text} - 例外錯誤:", e)
+        return {}
+
 def Json_Write(path: str, data: dict) -> None:
     try:
         with open(path, "w", encoding="utf-8") as file:
