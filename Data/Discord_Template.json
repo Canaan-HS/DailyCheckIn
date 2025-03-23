@@ -1,26 +1,26 @@
 {
-    "headers": {
-        "authorization": "",
-        "user-agent": ""
-    },
-    "cookies": {
-        "locale":"",
-        "_cfuvid":"",
-        "__dcfduid":"",
-        "__cfruid":"",
-        "__sdcfduid":""
-    },
+  "headers": {
+    "authorization": "",
+    "user-agent": ""
+  },
+  "cookies": {
+    "locale": "",
+    "_cfuvid": "",
+    "__dcfduid": "",
+    "__cfruid": "",
+    "__sdcfduid": ""
+  },
+  "data": {
+    "type": 3,
+    "nonce": "",
+    "guild_id": "",
+    "channel_id": "",
+    "message_id": "",
+    "application_id": "",
+    "session_id": "",
     "data": {
-        "type": 3,
-        "nonce": "",
-        "guild_id": "",
-        "channel_id": "",
-        "message_id": "",
-        "application_id": "",
-        "session_id": "",
-        "data": {
-            "component_type": 2,
-            "custom_id": "signin:btn_signin"
-        }
+      "component_type": 2,
+      "custom_id": "signin:btn_signin"
     }
+  }
 }
