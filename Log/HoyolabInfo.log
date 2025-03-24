@@ -1,6 +1,0 @@
-2025-03-25 01:00:38 - INFO: HTTP Request: POST https://sg-public-api.hoyolab.com/event/luna/zzz/os/sign?act_id=e202406031448091 "HTTP/1.1 200 OK"
-2025-03-25 01:00:38 - INFO: HTTP Request: POST https://sg-public-api.hoyolab.com/event/luna/os/sign?act_id=e202303301540311 "HTTP/1.1 200 OK"
-2025-03-25 01:00:39 - INFO: HTTP Request: POST https://sg-hk4e-api.hoyolab.com/event/sol/sign?act_id=e202102251931481 "HTTP/2 200 OK"
-2025-03-25 01:00:39 - INFO: GenshInimpact: 已經簽到
-2025-03-25 01:00:39 - INFO: HonkaiStarRail: 已經簽到
-2025-03-25 01:00:39 - INFO: ZenlessZoneZero: {'Name': 'ZenlessZoneZero', 'data': None, 'message': '操作频繁，请稍后再试', 'retcode': -500004}
