@@ -3,6 +3,10 @@ DiscordAPI = {
     "SignIn": "https://discord.com/api/v9/interactions"
 }
 
+# ZenlessZoneZero 可能無法簽到
+# https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481
+# https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311
+# https://act.hoyolab.com/bbs/event/signin/zzz/e202406031448091.html?act_id=e202406031448091
 HoyolabAPI = {
     "GenshInimpact": "https://sg-hk4e-api.hoyolab.com/event/sol/sign?act_id=e202102251931481",
     "HonkaiStarRail": "https://sg-public-api.hoyolab.com/event/luna/os/sign?act_id=e202303301540311",
