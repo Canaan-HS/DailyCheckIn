@@ -63,7 +63,7 @@ class CreateTask(CreateSend):
 
         StateParse = {
             "CheckIn": lambda code: "簽到成功" if code == 0 else "已經簽到" if code == 1001009 else "簽到失敗" if code == 300001 else "參數錯誤",
-            "StageCheckIn": lambda code: "簽到成功" if code == 0 else "已經簽到" if code == 1002007 else "簽到失敗" if code == 300001 else "參數錯誤",
+            "StageCheckIn": lambda code: "簽到成功" if code == 0 else "已經簽到" if code == 1002007 or code == 1001009 else "簽到失敗" if code == 300001 else "參數錯誤",
         }
 
         async def Factory():
