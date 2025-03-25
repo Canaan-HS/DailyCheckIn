@@ -10,7 +10,7 @@ DiscordAPI = {
 HoyolabAPI = {
     "GenshInimpact": "https://sg-hk4e-api.hoyolab.com/event/sol/sign?act_id=e202102251931481",
     "HonkaiStarRail": "https://sg-public-api.hoyolab.com/event/luna/os/sign?act_id=e202303301540311",
-    "ZenlessZoneZero": "https://sg-public-api.hoyolab.com/event/luna/zzz/os/sign?act_id=e202406031448091"
+    # "ZenlessZoneZero": "https://sg-public-api.hoyolab.com/event/luna/zzz/os/sign?act_id=e202406031448091"
 }
 
 # https://pass.levelinfinite.com/
