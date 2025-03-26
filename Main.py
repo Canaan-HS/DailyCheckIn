@@ -54,6 +54,6 @@ def Hoyolab(Local=True):
 
 if __name__ == "__main__":
     # Local 設置為 False 時, 通常無法在本地運行, 除非有額外設置 (主要用於 GitHub Actions)
-    LevelinfiniteStart(False)
+    # LevelinfiniteStart()
     DiscordStart(False)
-    Hoyolab(False)
+    # Hoyolab()
