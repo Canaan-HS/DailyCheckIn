@@ -13,7 +13,8 @@ HoyolabAPI = {
     # "ZenlessZoneZero": "https://sg-public-api.hoyolab.com/event/luna/zzz/os/sign?act_id=e202406031448091"
 }
 
-# https://pass.levelinfinite.com/
+# https://pass.levelinfinite.com/rewards?points=/points/
+# https://pass.levelinfinite.com/rewards?points=/points/sign-in
 LeveCheckInAPI = {
     "CheckIn": "https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/DailyCheckIn?task_id=15",
     "StageCheckIn": "https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/DailyStageCheckIn?task_id=58"
