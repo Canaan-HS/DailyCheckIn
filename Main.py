@@ -51,12 +51,12 @@ def Hoyolab(EnvSource: str = None, LogSave: str = "Log/HoyolabInfo.log"):
 
 
 if __name__ == "__main__":
-    # 本地端運行
+    # ? 本地端運行
     # Hoyolab()
     # DiscordStart()
     # LevelinfiniteStart()
 
-    # GitHub Actions 運行
+    # ? GitHub Actions 運行
     # Hoyolab("HoyolabData")
     DiscordStart("DiscordData")
     # LevelinfiniteStart("LevelinfiniteData")
