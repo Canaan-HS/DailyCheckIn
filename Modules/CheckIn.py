@@ -1,7 +1,8 @@
-from .__Lib__ import sys, logging, asyncio
+from .__Lib__ import sys, Path, logging, asyncio
 
 from .TaskAPI import *
 from .Send import CreateSend
+
 
 class CreateTask(CreateSend):
     def __init__(self, LogPath, Headers, Cookies, Data={}):
@@ -15,15 +16,13 @@ class CreateTask(CreateSend):
             "level": logging.INFO,
             "format": "%(asctime)s - %(levelname)s: %(message)s",
             "datefmt": "%Y-%m-%d %H:%M:%S",
-            "force": True
+            "force": True,
         }
 
         if LogPath is not None:
-            Config.update({
-                "filename": str(LogPath),
-                "encoding": "utf-8"
-            })
- 
+            LogPath.parent.mkdir(parents=True, exist_ok=True)  # 建立資料夾
+            Config.update({"filename": str(LogPath), "encoding": "utf-8"})
+
         logging.basicConfig(**Config)
         sys.excepthook = lambda *args: (
             logging.error("Exception", exc_info=args),
@@ -42,8 +41,12 @@ class CreateTask(CreateSend):
     def HoyolabCheckIn(self):
 
         StateParse = {
-            "GenshInimpact": lambda retcode: "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗",
-            "HonkaiStarRail": lambda retcode: "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗",
+            "GenshInimpact": lambda retcode: (
+                "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗"
+            ),
+            "HonkaiStarRail": lambda retcode: (
+                "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗"
+            ),
             # "ZenlessZoneZero": lambda retcode: "簽到成功" if retcode == 0 else "已經簽到", # -500012 "已經簽到", -500004 "操作頻繁"
         }
 
@@ -54,7 +57,7 @@ class CreateTask(CreateSend):
             ]
 
             for result in await asyncio.gather(*works):
-                state = StateParse.get(result['Name'], lambda *args: result)(result['retcode'])
+                state = StateParse.get(result["Name"], lambda *args: result)(result["retcode"])
                 logging.info(f"{result['Name']}: {state}")
 
         asyncio.run(Factory())
@@ -62,8 +65,20 @@ class CreateTask(CreateSend):
     def LeveCheckIn(self):
 
         StateParse = {
-            "CheckIn": lambda code: "簽到成功" if code == 0 else "已經簽到" if code == 1001009 else "簽到失敗" if code == 300001 else "參數錯誤",
-            "StageCheckIn": lambda code: "簽到成功" if code == 0 else "已經簽到" if code == 1002007 or code == 1001009 else "簽到失敗" if code == 300001 else "參數錯誤",
+            "CheckIn": lambda code: (
+                "簽到成功"
+                if code == 0
+                else "已經簽到" if code == 1001009 else "簽到失敗" if code == 300001 else "參數錯誤"
+            ),
+            "StageCheckIn": lambda code: (
+                "簽到成功"
+                if code == 0
+                else (
+                    "已經簽到"
+                    if code == 1002007 or code == 1001009
+                    else "簽到失敗" if code == 300001 else "參數錯誤"
+                )
+            ),
         }
 
         async def Factory():
@@ -73,7 +88,7 @@ class CreateTask(CreateSend):
             ]
 
             for result in await asyncio.gather(*works):
-                state = StateParse.get(result['Name'], lambda *args: result)(result['code'])
+                state = StateParse.get(result["Name"], lambda *args: result)(result["code"])
                 logging.info(f"{result['Name']}: {state}")
 
         asyncio.run(Factory())
@@ -83,5 +98,7 @@ class CreateTask(CreateSend):
         logging.info(f"Points: {ViewPoints.json()['data']['total_points']}")
 
         TaskStatus = self.http_post(LeveStateAPI["TaskStatus"], self.Headers, self.Cookies)
-        for State in TaskStatus.json()['data']['tasks']:
-            logging.info(f"任務: {State['task_name']} | 代號: {State['task_id']} | 完成: {State['reward_infos'][0]['is_completed']}")
+        for State in TaskStatus.json()["data"]["tasks"]:
+            logging.info(
+                f"任務: {State['task_name']} | 代號: {State['task_id']} | 完成: {State['reward_infos'][0]['is_completed']}"
+            )
