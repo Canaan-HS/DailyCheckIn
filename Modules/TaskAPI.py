@@ -1,7 +1,5 @@
 # https://discord.com/channels/946719263866101821/1300742310186975232
-DiscordAPI = {
-    "SignIn": "https://discord.com/api/v9/interactions"
-}
+DiscordAPI = {"SignIn": "https://discord.com/api/v9/interactions"}
 
 # ZenlessZoneZero 可能無法簽到
 # https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481
@@ -17,7 +15,7 @@ HoyolabAPI = {
 # https://pass.levelinfinite.com/rewards?points=/points/sign-in
 LeveCheckInAPI = {
     "CheckIn": "https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/DailyCheckIn?task_id=15",
-    "StageCheckIn": "https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/DailyStageCheckIn?task_id=58"
+    "StageCheckIn": "https://api-pass.levelinfinite.com/api/rewards/proxy/lipass/Points/DailyStageCheckIn?task_id=58",
 }
 
 LeveStateAPI = {

@@ -1,5 +1,6 @@
 from .__Lib__ import httpx
 
+
 class CreateSend:
     def __init__(self):
         self.Client = httpx.Client(http2=True)
