@@ -1,5 +1,8 @@
 # https://discord.com/channels/946719263866101821/1300742310186975232
-DiscordAPI = {"SignIn": "https://discord.com/api/v9/interactions"}
+DiscordAPI = {
+    "Nikke-Bot": "https://discord.com/api/v9/interactions",
+    "Nikke-CdKeys": "https://discord.com/api/v9/channels/1037895627494916167/messages?limit=50"
+}
 
 # ZenlessZoneZero 可能無法簽到
 # https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481
