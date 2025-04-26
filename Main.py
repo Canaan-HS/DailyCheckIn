@@ -35,7 +35,7 @@ def DiscordStart(EnvSource: str = None, LogSave: str = "Log/DiscordInfo.log"):
 
     Task = CreateTask(LogPath, DiscordData["headers"], DiscordData["cookies"], DiscordData["data"])
 
-    Task.DiscordSignIn()
+    Task.NikkeDiscordSignIn()
 
 
 def Hoyolab(EnvSource: str = None, LogSave: str = "Log/HoyolabInfo.log"):
