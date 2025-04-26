@@ -14,6 +14,10 @@ class CreateSend:
             except:
                 return {"Name": Name, "response": response.text}
 
+    def http_get(self, Url, Headers, Cookies):
+        Response = self.Client.get(Url, headers=Headers, cookies=Cookies)
+        return Response
+
     def http_post(self, Url, Headers, Cookies, Data={}):
         Response = self.Client.post(Url, headers=Headers, cookies=Cookies, json=Data)
         return Response
