@@ -9,7 +9,7 @@ Todo - 1. 根據要簽到的功能, 呼叫對應函數
 Todo - 2. 如果是本地使用, 不需要傳遞任何參數
 Todo - 3. 如果是環境變數使用, 可設置 EnvSource 參數 與 LogSave 參數
 
-! 參數並無做檢查, 如果 EnvSource 不存在, 或格式不符合模板, 就直接壞掉
+! 參數並無做檢查, 如果 EnvSource 不存在, 或數據格式不符合模板, 就直接壞掉
 """
 
 
@@ -33,9 +33,10 @@ def DiscordStart(EnvSource: str = None, LogSave: str = "Log/DiscordInfo.log"):
         else (None, Json_Read(current_path / "Data/Discord.json"))
     )
 
-    Task = CreateTask(LogPath, DiscordData["headers"], DiscordData["cookies"], DiscordData["data"])
+    Task = CreateTask(LogPath, DiscordData["headers"], DiscordData["cookies"])
 
-    Task.NikkeDiscordSignIn()
+    Task.NikkeDiscordSignIn(DiscordData["signin-data"])
+    # Task.NikkeInputCdKey(DiscordData["cdkey-data"])
 
 
 def Hoyolab(EnvSource: str = None, LogSave: str = "Log/HoyolabInfo.log"):
