@@ -5,12 +5,11 @@ from .Send import CreateSend
 
 
 class CreateTask(CreateSend):
-    def __init__(self, LogPath, Headers, Cookies, Data={}):
+    def __init__(self, LogPath, Headers, Cookies):
         super().__init__()
 
         self.Headers = Headers
         self.Cookies = Cookies
-        self.Data = Data
 
         Config = {
             "level": logging.INFO,
@@ -29,8 +28,11 @@ class CreateTask(CreateSend):
             sys.__excepthook__(*args),
         )
 
-    def NikkeInputCdKey(self):
-        # Todo - 取得 Cd-Key, 調用 Nikke-Bot API, 去自動輸入 Cd-Key
+    def NikkeInputCdKey(self, Data={}):
+        # ! 等待研究
+        # Data['data']['components'][0]['components'][0]['value'] = ""
+        # result = self.http_post(DiscordAPI["Nikke-Bot"], self.Headers, self.Cookies, Data)
+
         CdKey = self.http_get(DiscordAPI["Nikke-CdKeys"], self.Headers, self.Cookies)
 
         try:
@@ -45,8 +47,8 @@ class CreateTask(CreateSend):
         except:
             logging.error(f"Nikke Cd-Key 取得失敗")
 
-    def NikkeDiscordSignIn(self):
-        SignIn = self.http_post(DiscordAPI["Nikke-Bot"], self.Headers, self.Cookies, self.Data)
+    def NikkeDiscordSignIn(self, Data={}):
+        SignIn = self.http_post(DiscordAPI["Nikke-Bot"], self.Headers, self.Cookies, Data)
 
         try:
             logging.error(f"Nikke-SignIn: {SignIn.json()}")
