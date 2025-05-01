@@ -10,7 +10,7 @@
     "__cfruid": "",
     "__sdcfduid": ""
   },
-  "data": {
+  "signin-data": {
     "type": 3,
     "nonce": "",
     "guild_id": "",
@@ -22,5 +22,29 @@
       "component_type": 2,
       "custom_id": "signin:btn_signin"
     }
+  },
+  "cdkey-data": {
+    "type": 5,
+    "application_id": "",
+    "channel_id": "",
+    "guild_id": "",
+    "data": {
+      "id": "",
+      "custom_id": "intl.intl_svr.snscdkey.snscdkey_interface/DiscordCDKey/",
+      "components": [
+        {
+          "type": 1,
+          "components": [
+            {
+              "type": 4,
+              "custom_id": "cdk",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    "session_id": "",
+    "nonce": ""
   }
 }
