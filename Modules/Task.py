@@ -1,4 +1,4 @@
-from .__Lib__ import re, sys, logging, asyncio
+from .Libs import re, sys, logging, asyncio
 
 from .TaskAPI import *
 from .Send import CreateSend
