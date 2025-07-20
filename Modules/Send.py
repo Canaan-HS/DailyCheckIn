@@ -1,4 +1,4 @@
-from .__Lib__ import httpx
+from .Libs import httpx
 
 
 class CreateSend:
