@@ -1,4 +1,4 @@
-from .__Lib__ import json
+from .Libs import json
 
 
 def Json_Read(path: str) -> dict:
