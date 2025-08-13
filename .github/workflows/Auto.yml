@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Clone Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
@@ -26,7 +26,7 @@ jobs:
           echo "Current time: $(date)"
 
       - name: Setting Up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.13.2"
           cache: "pip"
