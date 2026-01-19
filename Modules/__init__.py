@@ -1,4 +1,4 @@
-from .Libs import *
+from .libs import *
 
-from .JsonRW import *
-from .Task import *
+from .json_rw import *
+from .task import *
