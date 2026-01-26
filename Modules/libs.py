@@ -6,4 +6,5 @@ import logging
 import asyncio
 from pathlib import Path
 
-import httpx
+from curl_cffi import requests as curl
+from curl_cffi.requests import AsyncSession as CurlAsyncSession
