@@ -33,7 +33,7 @@ def discord_start(env_source: str = None, log_save_path: str = "Log/DiscordInfo.
         else (None, json_read(current_path / "Data/Discord.json"))
     )
 
-    task = CreateTask(log_path, discord_data["headers"], discord_data["cookies"])
+    task = CreateTask(log_path, cookies=discord_data["cookies"])
 
     task.nikke_discord_signIn(discord_data["signin-data"])
     # task.nikke_input_cdKey(discord_data["cdkey-data"])
@@ -46,7 +46,7 @@ def hoyolab(env_source: str = None, log_save_path: str = "Log/HoyolabInfo.log"):
         else (None, json_read(current_path / "Data/Hoyolab.json"))
     )
 
-    task = CreateTask(log_path, hoyolab_data["headers"], hoyolab_data["cookies"])
+    task = CreateTask(log_path, cookies=hoyolab_data["cookies"])
 
     task.hoyolab_checkIn()
 
