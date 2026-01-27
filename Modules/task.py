@@ -5,7 +5,7 @@ from .send import CreateSend
 
 
 class CreateTask(CreateSend):
-    def __init__(self, log_path, headers, cookies):
+    def __init__(self, log_path, headers={}, cookies={}):
         super().__init__()
 
         self.headers = headers
@@ -31,9 +31,9 @@ class CreateTask(CreateSend):
     def nikke_input_cdKey(self, data={}):
         # ! 等待研究
         # data['data']['components'][0]['components'][0]['value'] = ""
-        # result = self.http_post(DiscordAPI["Nikke-Bot"], self.headers, self.cookies, data)
+        # result = self.curl_post(DiscordAPI["Nikke-Bot"], self.headers, self.cookies, data)
 
-        cdKey = self.http_get(DiscordAPI["Nikke-CdKeys"], self.headers, self.cookies)
+        cdKey = self.curl_get(DiscordAPI["Nikke-CdKeys"], self.headers, self.cookies)
 
         try:
             data = cdKey.json()
@@ -41,14 +41,14 @@ class CreateTask(CreateSend):
                 content = data["content"]
 
                 # 嘗試取得 Cd-Key, 排除其他類型內容
-                if content and re.fullmatch(r'[A-Za-z0-9]+', content):
+                if content and re.fullmatch(r"[A-Za-z0-9]+", content):
                     print(content)
 
         except:
             logging.error(f"Nikke Cd-Key 取得失敗")
 
     def nikke_discord_signIn(self, data={}):
-        signIn = self.http_post(DiscordAPI["Nikke-Bot"], self.headers, self.cookies, data)
+        signIn = self.curl_post(DiscordAPI["Nikke-Bot"], self.headers, self.cookies, data)
 
         try:
             logging.error(f"Nikke-SignIn: {signIn.json()}")
@@ -65,12 +65,14 @@ class CreateTask(CreateSend):
             "HonkaiStarRail": lambda retcode: (
                 "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗"
             ),
-            # "ZenlessZoneZero": lambda retcode: "簽到成功" if retcode == 0 else "已經簽到", # -500012 "已經簽到", -500004 "操作頻繁"
+            # "ZenlessZoneZero": lambda retcode: (
+            #     "簽到成功" if retcode == 0 else "簽到失敗" if retcode == -500012 else "已經簽到"
+            # ),
         }
 
         async def factory():
             works = [
-                self.async_http_post(name, url, self.headers, self.cookies)
+                self.async_curl_post(name, url, self.headers, self.cookies)
                 for name, url in HoyolabAPI.items()
             ]
 
@@ -101,7 +103,7 @@ class CreateTask(CreateSend):
 
         async def factory():
             works = [
-                self.async_http_post(name, url, self.headers, self.cookies)
+                self.async_curl_post(name, url, self.headers, self.cookies)
                 for name, url in LeveCheckInAPI.items()
             ]
 
@@ -112,10 +114,10 @@ class CreateTask(CreateSend):
         asyncio.run(factory())
 
     def leve_state(self):
-        ViewPoints = self.http_post(LeveStateAPI["ViewPoints"], self.headers, self.cookies)
+        ViewPoints = self.curl_post(LeveStateAPI["ViewPoints"], self.headers, self.cookies)
         logging.info(f"Points: {ViewPoints.json()['data']['total_points']}")
 
-        task_status = self.http_post(LeveStateAPI["TaskStatus"], self.headers, self.cookies)
+        task_status = self.curl_post(LeveStateAPI["TaskStatus"], self.headers, self.cookies)
         for State in task_status.json()["data"]["tasks"]:
             logging.info(
                 f"任務: {State['task_name']} | 代號: {State['task_id']} | 完成: {State['reward_infos'][0]['is_completed']}"
