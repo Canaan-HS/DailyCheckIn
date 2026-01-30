@@ -20,7 +20,7 @@ def levelinfinite_start(env_source: str = None, log_save_path: str = "Log/LeveIn
         else (None, json_read(current_path / "Data/Levelinfinite.json"))
     )
 
-    task = CreateTask(log_path, levelinfinite_data["headers"], levelinfinite_data["cookies"])
+    task = CreateTask(log_path, cookies=levelinfinite_data["cookies"])
 
     task.leve_checkIn()
     task.leve_state()
@@ -33,7 +33,7 @@ def discord_start(env_source: str = None, log_save_path: str = "Log/DiscordInfo.
         else (None, json_read(current_path / "Data/Discord.json"))
     )
 
-    task = CreateTask(log_path, cookies=discord_data["cookies"])
+    task = CreateTask(log_path, headers=discord_data["headers"], cookies=discord_data["cookies"])
 
     task.nikke_discord_signIn(discord_data["signin-data"])
     # task.nikke_input_cdKey(discord_data["cdkey-data"])
