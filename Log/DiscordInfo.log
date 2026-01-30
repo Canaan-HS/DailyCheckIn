@@ -530,7 +530,3 @@
 2026-01-26 00:01:06 - INFO: Nikke-SignIn: 簽到成功
 2026-01-27 00:17:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-27 00:17:08 - INFO: Nikke-SignIn: 簽到成功
-2026-01-28 00:14:49 - ERROR: Nikke-SignIn: {'message': '401: Unauthorized', 'code': 0}
-2026-01-29 00:20:07 - ERROR: Nikke-SignIn: {'message': '401: Unauthorized', 'code': 0}
-2026-01-30 00:26:19 - ERROR: Nikke-SignIn: {'message': '401: Unauthorized', 'code': 0}
-2026-01-31 00:22:39 - ERROR: Nikke-SignIn: {'message': '401: Unauthorized', 'code': 0}
