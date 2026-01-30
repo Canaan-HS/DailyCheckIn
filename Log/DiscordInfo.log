@@ -1,532 +1,267 @@
-2025-05-01 08:29:45 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-01 08:29:45 - INFO: Nikke-SignIn: 簽到成功
-2025-05-02 00:14:11 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-02 00:14:11 - INFO: Nikke-SignIn: 簽到成功
-2025-05-03 00:13:50 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-03 00:13:50 - INFO: Nikke-SignIn: 簽到成功
-2025-05-04 00:12:24 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-04 00:12:24 - INFO: Nikke-SignIn: 簽到成功
-2025-05-05 00:12:29 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-05 00:12:29 - INFO: Nikke-SignIn: 簽到成功
-2025-05-06 00:14:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-06 00:14:52 - INFO: Nikke-SignIn: 簽到成功
-2025-05-07 00:13:44 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-07 00:13:44 - INFO: Nikke-SignIn: 簽到成功
-2025-05-08 00:14:40 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-08 00:14:40 - INFO: Nikke-SignIn: 簽到成功
-2025-05-09 00:14:31 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-09 00:14:31 - INFO: Nikke-SignIn: 簽到成功
-2025-05-10 00:14:01 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-10 00:14:01 - INFO: Nikke-SignIn: 簽到成功
-2025-05-11 00:12:33 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-11 00:12:33 - INFO: Nikke-SignIn: 簽到成功
-2025-05-12 00:12:19 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-12 00:12:19 - INFO: Nikke-SignIn: 簽到成功
-2025-05-13 00:14:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-13 00:14:52 - INFO: Nikke-SignIn: 簽到成功
-2025-05-14 00:14:38 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-14 00:14:38 - INFO: Nikke-SignIn: 簽到成功
-2025-05-15 00:14:21 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-15 00:14:21 - INFO: Nikke-SignIn: 簽到成功
-2025-05-16 00:14:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-16 00:14:41 - INFO: Nikke-SignIn: 簽到成功
-2025-05-17 00:13:53 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-17 00:13:53 - INFO: Nikke-SignIn: 簽到成功
-2025-05-18 00:12:43 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-18 00:12:43 - INFO: Nikke-SignIn: 簽到成功
-2025-05-19 00:12:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-19 00:12:08 - INFO: Nikke-SignIn: 簽到成功
-2025-05-20 00:14:19 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-20 00:14:19 - INFO: Nikke-SignIn: 簽到成功
-2025-05-21 00:14:30 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-21 00:14:30 - INFO: Nikke-SignIn: 簽到成功
-2025-05-22 00:14:44 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-22 00:14:44 - INFO: Nikke-SignIn: 簽到成功
-2025-05-23 00:14:33 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-23 00:14:33 - INFO: Nikke-SignIn: 簽到成功
-2025-05-24 00:13:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-24 00:13:41 - INFO: Nikke-SignIn: 簽到成功
-2025-05-25 00:12:11 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-25 00:12:11 - INFO: Nikke-SignIn: 簽到成功
-2025-05-26 00:12:29 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-26 00:12:29 - INFO: Nikke-SignIn: 簽到成功
-2025-05-27 00:13:42 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-27 00:13:42 - INFO: Nikke-SignIn: 簽到成功
-2025-05-28 00:14:38 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-28 00:14:38 - INFO: Nikke-SignIn: 簽到成功
-2025-05-29 00:13:02 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-29 00:13:02 - INFO: Nikke-SignIn: 簽到成功
-2025-05-30 00:14:18 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-30 00:14:18 - INFO: Nikke-SignIn: 簽到成功
-2025-05-31 00:14:15 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-05-31 00:14:15 - INFO: Nikke-SignIn: 簽到成功
-2025-06-01 00:12:39 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-01 00:12:39 - INFO: Nikke-SignIn: 簽到成功
-2025-06-02 00:12:59 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-02 00:12:59 - INFO: Nikke-SignIn: 簽到成功
-2025-06-03 00:15:06 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-03 00:15:06 - INFO: Nikke-SignIn: 簽到成功
-2025-06-04 00:15:48 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-04 00:15:48 - INFO: Nikke-SignIn: 簽到成功
-2025-06-05 00:14:22 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-05 00:14:22 - INFO: Nikke-SignIn: 簽到成功
-2025-06-06 00:14:45 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-06 00:14:45 - INFO: Nikke-SignIn: 簽到成功
-2025-06-07 00:14:44 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-07 00:14:44 - INFO: Nikke-SignIn: 簽到成功
-2025-06-08 00:12:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-08 00:12:41 - INFO: Nikke-SignIn: 簽到成功
-2025-06-09 00:12:49 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-09 00:12:49 - INFO: Nikke-SignIn: 簽到成功
-2025-06-10 00:15:01 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-10 00:15:01 - INFO: Nikke-SignIn: 簽到成功
-2025-06-11 00:14:43 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-11 00:14:43 - INFO: Nikke-SignIn: 簽到成功
-2025-06-12 00:15:29 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-12 00:15:29 - INFO: Nikke-SignIn: 簽到成功
-2025-06-13 00:14:35 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-13 00:14:35 - INFO: Nikke-SignIn: 簽到成功
-2025-06-14 00:14:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-14 00:14:25 - INFO: Nikke-SignIn: 簽到成功
-2025-06-15 00:12:49 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-15 00:12:49 - INFO: Nikke-SignIn: 簽到成功
-2025-06-16 00:13:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-16 00:13:08 - INFO: Nikke-SignIn: 簽到成功
-2025-06-17 00:14:55 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-17 00:14:55 - INFO: Nikke-SignIn: 簽到成功
-2025-06-18 00:15:14 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-18 00:15:14 - INFO: Nikke-SignIn: 簽到成功
-2025-06-19 00:15:00 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-19 00:15:00 - INFO: Nikke-SignIn: 簽到成功
-2025-06-20 00:14:35 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-20 00:14:35 - INFO: Nikke-SignIn: 簽到成功
-2025-06-21 00:14:33 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-21 00:14:33 - INFO: Nikke-SignIn: 簽到成功
-2025-06-22 00:12:43 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-22 00:12:43 - INFO: Nikke-SignIn: 簽到成功
-2025-06-23 00:13:00 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-23 00:13:00 - INFO: Nikke-SignIn: 簽到成功
-2025-06-24 00:15:10 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-24 00:15:10 - INFO: Nikke-SignIn: 簽到成功
-2025-06-25 00:14:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-25 00:14:52 - INFO: Nikke-SignIn: 簽到成功
-2025-06-26 00:15:20 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-26 00:15:20 - INFO: Nikke-SignIn: 簽到成功
-2025-06-27 00:14:51 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-27 00:14:51 - INFO: Nikke-SignIn: 簽到成功
-2025-06-28 00:14:47 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-28 00:14:47 - INFO: Nikke-SignIn: 簽到成功
-2025-06-29 00:12:54 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-29 00:12:54 - INFO: Nikke-SignIn: 簽到成功
-2025-06-30 00:12:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-06-30 00:12:52 - INFO: Nikke-SignIn: 簽到成功
-2025-07-01 00:14:38 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-01 00:14:38 - INFO: Nikke-SignIn: 簽到成功
-2025-07-02 00:15:22 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-02 00:15:22 - INFO: Nikke-SignIn: 簽到成功
-2025-07-03 00:14:37 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-03 00:14:37 - INFO: Nikke-SignIn: 簽到成功
-2025-07-04 00:15:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-04 00:15:07 - INFO: Nikke-SignIn: 簽到成功
-2025-07-05 00:14:02 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-05 00:14:02 - INFO: Nikke-SignIn: 簽到成功
-2025-07-06 00:13:20 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-06 00:13:20 - INFO: Nikke-SignIn: 簽到成功
-2025-07-07 00:13:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-07 00:13:08 - INFO: Nikke-SignIn: 簽到成功
-2025-07-08 00:14:48 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-08 00:14:48 - INFO: Nikke-SignIn: 簽到成功
-2025-07-09 00:15:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-09 00:15:08 - INFO: Nikke-SignIn: 簽到成功
-2025-07-10 00:12:53 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-10 00:12:53 - INFO: Nikke-SignIn: 簽到成功
-2025-07-11 00:15:05 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-11 00:15:05 - INFO: Nikke-SignIn: 簽到成功
-2025-07-12 00:14:34 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-12 00:14:34 - INFO: Nikke-SignIn: 簽到成功
-2025-07-13 00:13:12 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-13 00:13:12 - INFO: Nikke-SignIn: 簽到成功
-2025-07-14 00:13:14 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-14 00:13:14 - INFO: Nikke-SignIn: 簽到成功
-2025-07-15 00:15:35 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-15 00:15:35 - INFO: Nikke-SignIn: 簽到成功
-2025-07-16 00:15:44 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-16 00:15:44 - INFO: Nikke-SignIn: 簽到成功
-2025-07-17 00:15:51 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-17 00:15:51 - INFO: Nikke-SignIn: 簽到成功
-2025-07-18 00:15:33 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-18 00:15:33 - INFO: Nikke-SignIn: 簽到成功
-2025-07-19 00:17:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-19 00:17:09 - INFO: Nikke-SignIn: 簽到成功
-2025-07-20 00:13:32 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-20 00:13:32 - INFO: Nikke-SignIn: 簽到成功
-2025-07-21 00:13:46 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-21 00:13:46 - INFO: Nikke-SignIn: 簽到成功
-2025-07-22 00:15:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-22 00:15:09 - INFO: Nikke-SignIn: 簽到成功
-2025-07-23 00:15:39 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-23 00:15:39 - INFO: Nikke-SignIn: 簽到成功
-2025-07-24 00:16:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-24 00:16:09 - INFO: Nikke-SignIn: 簽到成功
-2025-07-25 00:14:39 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-25 00:14:39 - INFO: Nikke-SignIn: 簽到成功
-2025-07-26 00:15:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-26 00:15:09 - INFO: Nikke-SignIn: 簽到成功
-2025-07-27 00:13:46 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-27 00:13:46 - INFO: Nikke-SignIn: 簽到成功
-2025-07-28 00:13:58 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-28 00:13:58 - INFO: Nikke-SignIn: 簽到成功
-2025-07-29 00:16:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-29 00:16:25 - INFO: Nikke-SignIn: 簽到成功
-2025-07-30 00:14:38 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-30 00:14:38 - INFO: Nikke-SignIn: 簽到成功
-2025-07-31 00:15:53 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-07-31 00:15:53 - INFO: Nikke-SignIn: 簽到成功
-2025-08-07 01:20:24 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-07 01:20:24 - INFO: Nikke-SignIn: 簽到成功
-2025-08-08 00:19:22 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-08 00:19:22 - INFO: Nikke-SignIn: 簽到成功
-2025-08-09 00:17:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-09 00:17:07 - INFO: Nikke-SignIn: 簽到成功
-2025-08-10 00:16:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-10 00:16:07 - INFO: Nikke-SignIn: 簽到成功
-2025-08-11 00:16:32 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-11 00:16:32 - INFO: Nikke-SignIn: 簽到成功
-2025-08-12 00:18:35 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-12 00:18:35 - INFO: Nikke-SignIn: 簽到成功
-2025-08-13 00:18:13 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-13 00:18:13 - INFO: Nikke-SignIn: 簽到成功
-2025-08-14 00:14:29 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-14 00:14:29 - INFO: Nikke-SignIn: 簽到成功
-2025-08-15 00:18:36 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-15 00:18:36 - INFO: Nikke-SignIn: 簽到成功
-2025-08-16 00:17:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-16 00:17:09 - INFO: Nikke-SignIn: 簽到成功
-2025-08-17 00:15:17 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-17 00:15:17 - INFO: Nikke-SignIn: 簽到成功
-2025-08-18 00:15:42 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-18 00:15:42 - INFO: Nikke-SignIn: 簽到成功
-2025-08-19 00:18:13 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-19 00:18:13 - INFO: Nikke-SignIn: 簽到成功
-2025-08-20 00:17:23 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-20 00:17:23 - INFO: Nikke-SignIn: 簽到成功
-2025-08-21 00:17:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-21 00:17:07 - INFO: Nikke-SignIn: 簽到成功
-2025-08-22 00:21:24 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-22 00:21:24 - INFO: Nikke-SignIn: 簽到成功
-2025-08-23 00:16:05 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-23 00:16:05 - INFO: Nikke-SignIn: 簽到成功
-2025-08-24 00:14:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-24 00:14:08 - INFO: Nikke-SignIn: 簽到成功
-2025-08-25 00:14:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-25 00:14:52 - INFO: Nikke-SignIn: 簽到成功
-2025-08-26 00:16:48 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-26 00:16:48 - INFO: Nikke-SignIn: 簽到成功
-2025-08-27 00:16:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-27 00:16:25 - INFO: Nikke-SignIn: 簽到成功
-2025-08-28 00:16:35 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-28 00:16:35 - INFO: Nikke-SignIn: 簽到成功
-2025-08-29 00:17:00 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-29 00:17:00 - INFO: Nikke-SignIn: 簽到成功
-2025-08-30 00:16:13 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-30 00:16:13 - INFO: Nikke-SignIn: 簽到成功
-2025-08-31 00:14:20 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-08-31 00:14:20 - INFO: Nikke-SignIn: 簽到成功
-2025-09-01 00:14:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-01 00:14:25 - INFO: Nikke-SignIn: 簽到成功
-2025-09-02 00:15:50 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-02 00:15:50 - INFO: Nikke-SignIn: 簽到成功
-2025-09-03 00:16:48 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-03 00:16:48 - INFO: Nikke-SignIn: 簽到成功
-2025-09-04 00:15:58 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-04 00:15:58 - INFO: Nikke-SignIn: 簽到成功
-2025-09-05 00:16:29 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-05 00:16:29 - INFO: Nikke-SignIn: 簽到成功
-2025-09-06 00:16:14 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-06 00:16:14 - INFO: Nikke-SignIn: 簽到成功
-2025-09-07 00:13:35 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-07 00:13:35 - INFO: Nikke-SignIn: 簽到成功
-2025-09-08 00:13:40 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-08 00:13:40 - INFO: Nikke-SignIn: 簽到成功
-2025-09-09 00:15:48 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-09 00:15:48 - INFO: Nikke-SignIn: 簽到成功
-2025-09-10 00:16:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-10 00:16:41 - INFO: Nikke-SignIn: 簽到成功
-2025-09-11 00:16:23 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-11 00:16:23 - INFO: Nikke-SignIn: 簽到成功
-2025-09-12 00:16:10 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-12 00:16:11 - INFO: Nikke-SignIn: 簽到成功
-2025-09-13 00:16:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-13 00:16:25 - INFO: Nikke-SignIn: 簽到成功
-2025-09-14 00:13:34 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-14 00:13:34 - INFO: Nikke-SignIn: 簽到成功
-2025-09-15 00:13:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-15 00:13:25 - INFO: Nikke-SignIn: 簽到成功
-2025-09-16 00:16:30 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-16 00:16:30 - INFO: Nikke-SignIn: 簽到成功
-2025-09-17 00:16:39 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-17 00:16:39 - INFO: Nikke-SignIn: 簽到成功
-2025-09-18 00:17:04 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-18 00:17:04 - INFO: Nikke-SignIn: 簽到成功
-2025-09-19 00:16:13 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-19 00:16:13 - INFO: Nikke-SignIn: 簽到成功
-2025-09-20 00:16:06 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-20 00:16:06 - INFO: Nikke-SignIn: 簽到成功
-2025-09-21 00:14:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-21 00:14:07 - INFO: Nikke-SignIn: 簽到成功
-2025-09-22 00:14:13 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-22 00:14:13 - INFO: Nikke-SignIn: 簽到成功
-2025-09-23 00:16:59 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-23 00:16:59 - INFO: Nikke-SignIn: 簽到成功
-2025-09-24 00:17:02 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-24 00:17:02 - INFO: Nikke-SignIn: 簽到成功
-2025-09-25 00:17:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-25 00:17:09 - INFO: Nikke-SignIn: 簽到成功
-2025-09-26 00:16:35 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-26 00:16:35 - INFO: Nikke-SignIn: 簽到成功
-2025-09-27 00:16:37 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-27 00:16:37 - INFO: Nikke-SignIn: 簽到成功
-2025-09-28 00:14:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-28 00:14:08 - INFO: Nikke-SignIn: 簽到成功
-2025-09-29 00:13:45 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-29 00:13:45 - INFO: Nikke-SignIn: 簽到成功
-2025-09-30 00:13:51 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-09-30 00:13:51 - INFO: Nikke-SignIn: 簽到成功
-2025-10-01 00:16:53 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-01 00:16:53 - INFO: Nikke-SignIn: 簽到成功
-2025-10-02 00:16:55 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-02 00:16:55 - INFO: Nikke-SignIn: 簽到成功
-2025-10-03 00:16:01 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-03 00:16:01 - INFO: Nikke-SignIn: 簽到成功
-2025-10-04 00:15:36 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-04 00:15:36 - INFO: Nikke-SignIn: 簽到成功
-2025-10-05 00:13:59 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-05 00:13:59 - INFO: Nikke-SignIn: 簽到成功
-2025-10-06 00:13:56 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-06 00:13:56 - INFO: Nikke-SignIn: 簽到成功
-2025-10-07 00:16:12 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-07 00:16:12 - INFO: Nikke-SignIn: 簽到成功
-2025-10-08 00:16:31 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-08 00:16:31 - INFO: Nikke-SignIn: 簽到成功
-2025-10-09 00:16:38 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-09 00:16:38 - INFO: Nikke-SignIn: 簽到成功
-2025-10-10 00:18:22 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-10 00:18:22 - INFO: Nikke-SignIn: 簽到成功
-2025-10-11 00:16:16 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-11 00:16:16 - INFO: Nikke-SignIn: 簽到成功
-2025-10-12 00:13:59 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-12 00:13:59 - INFO: Nikke-SignIn: 簽到成功
-2025-10-13 00:14:06 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-13 00:14:06 - INFO: Nikke-SignIn: 簽到成功
-2025-10-14 00:16:22 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-14 00:16:22 - INFO: Nikke-SignIn: 簽到成功
-2025-10-15 00:16:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-15 00:16:52 - INFO: Nikke-SignIn: 簽到成功
-2025-10-16 00:14:21 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-16 00:14:21 - INFO: Nikke-SignIn: 簽到成功
-2025-10-17 00:17:40 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-17 00:17:40 - INFO: Nikke-SignIn: 簽到成功
-2025-10-18 00:16:13 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-18 00:16:13 - INFO: Nikke-SignIn: 簽到成功
-2025-10-19 00:14:26 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-19 00:14:26 - INFO: Nikke-SignIn: 簽到成功
-2025-10-20 00:14:28 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-20 00:14:28 - INFO: Nikke-SignIn: 簽到成功
-2025-10-21 00:16:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-21 00:16:41 - INFO: Nikke-SignIn: 簽到成功
-2025-10-22 00:17:56 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-22 00:17:56 - INFO: Nikke-SignIn: 簽到成功
-2025-10-23 00:17:57 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-23 00:17:57 - INFO: Nikke-SignIn: 簽到成功
-2025-10-24 00:17:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-24 00:17:09 - INFO: Nikke-SignIn: 簽到成功
-2025-10-25 00:16:48 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-25 00:16:48 - INFO: Nikke-SignIn: 簽到成功
-2025-10-26 00:14:43 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-26 00:14:43 - INFO: Nikke-SignIn: 簽到成功
-2025-10-27 00:14:54 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-27 00:14:54 - INFO: Nikke-SignIn: 簽到成功
-2025-10-28 00:17:55 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-28 00:17:55 - INFO: Nikke-SignIn: 簽到成功
-2025-10-29 00:18:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-29 00:18:08 - INFO: Nikke-SignIn: 簽到成功
-2025-10-30 00:18:16 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-30 00:18:16 - INFO: Nikke-SignIn: 簽到成功
-2025-10-31 00:18:21 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-10-31 00:18:21 - INFO: Nikke-SignIn: 簽到成功
-2025-11-01 00:16:55 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-01 00:16:55 - INFO: Nikke-SignIn: 簽到成功
-2025-11-02 00:14:29 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-02 00:14:29 - INFO: Nikke-SignIn: 簽到成功
-2025-11-03 00:14:36 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-03 00:14:36 - INFO: Nikke-SignIn: 簽到成功
-2025-11-04 00:17:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-04 00:17:08 - INFO: Nikke-SignIn: 簽到成功
-2025-11-05 00:17:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-05 00:17:41 - INFO: Nikke-SignIn: 簽到成功
-2025-11-06 00:18:24 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-06 00:18:24 - INFO: Nikke-SignIn: 簽到成功
-2025-11-07 00:18:42 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-07 00:18:42 - INFO: Nikke-SignIn: 簽到成功
-2025-11-08 00:14:45 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-08 00:14:45 - INFO: Nikke-SignIn: 簽到成功
-2025-11-09 00:15:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-09 00:15:08 - INFO: Nikke-SignIn: 簽到成功
-2025-11-10 00:14:47 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-10 00:14:47 - INFO: Nikke-SignIn: 簽到成功
-2025-11-11 00:18:12 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-11 00:18:12 - INFO: Nikke-SignIn: 簽到成功
-2025-11-12 00:17:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-12 00:17:52 - INFO: Nikke-SignIn: 簽到成功
-2025-11-13 00:19:15 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-13 00:19:15 - INFO: Nikke-SignIn: 簽到成功
-2025-11-14 00:17:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-14 00:17:41 - INFO: Nikke-SignIn: 簽到成功
-2025-11-15 00:18:03 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-15 00:18:03 - INFO: Nikke-SignIn: 簽到成功
-2025-11-16 00:14:33 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-16 00:14:33 - INFO: Nikke-SignIn: 簽到成功
-2025-11-17 00:14:54 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-17 00:14:54 - INFO: Nikke-SignIn: 簽到成功
-2025-11-18 00:19:09 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-18 00:19:09 - INFO: Nikke-SignIn: 簽到成功
-2025-11-19 00:19:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-19 00:19:08 - INFO: Nikke-SignIn: 簽到成功
-2025-11-20 00:18:49 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-20 00:18:49 - INFO: Nikke-SignIn: 簽到成功
-2025-11-21 00:18:14 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-21 00:18:14 - INFO: Nikke-SignIn: 簽到成功
-2025-11-22 00:17:41 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-22 00:17:41 - INFO: Nikke-SignIn: 簽到成功
-2025-11-23 00:15:11 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-23 00:15:11 - INFO: Nikke-SignIn: 簽到成功
-2025-11-24 00:15:29 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-24 00:15:29 - INFO: Nikke-SignIn: 簽到成功
-2025-11-25 00:15:52 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-25 00:15:52 - INFO: Nikke-SignIn: 簽到成功
-2025-11-26 00:19:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-26 00:19:08 - INFO: Nikke-SignIn: 簽到成功
-2025-11-27 00:18:06 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-27 00:18:06 - INFO: Nikke-SignIn: 簽到成功
-2025-11-28 00:17:17 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-28 00:17:17 - INFO: Nikke-SignIn: 簽到成功
-2025-11-29 00:17:02 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-29 00:17:02 - INFO: Nikke-SignIn: 簽到成功
-2025-11-30 00:15:54 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-11-30 00:15:54 - INFO: Nikke-SignIn: 簽到成功
-2025-12-01 00:15:49 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-01 00:15:49 - INFO: Nikke-SignIn: 簽到成功
-2025-12-02 00:20:38 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-02 00:20:38 - INFO: Nikke-SignIn: 簽到成功
-2025-12-03 00:19:51 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-03 00:19:51 - INFO: Nikke-SignIn: 簽到成功
-2025-12-04 00:21:01 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-04 00:21:01 - INFO: Nikke-SignIn: 簽到成功
-2025-12-05 00:20:05 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-05 00:20:05 - INFO: Nikke-SignIn: 簽到成功
-2025-12-06 00:18:31 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-06 00:18:31 - INFO: Nikke-SignIn: 簽到成功
-2025-12-07 00:16:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-07 00:16:07 - INFO: Nikke-SignIn: 簽到成功
-2025-12-08 00:15:27 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-08 00:15:27 - INFO: Nikke-SignIn: 簽到成功
-2025-12-09 00:19:33 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-09 00:19:33 - INFO: Nikke-SignIn: 簽到成功
-2025-12-10 00:20:24 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-10 00:20:24 - INFO: Nikke-SignIn: 簽到成功
-2025-12-11 00:20:57 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-11 00:20:57 - INFO: Nikke-SignIn: 簽到成功
-2025-12-12 00:21:21 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-12 00:21:21 - INFO: Nikke-SignIn: 簽到成功
-2025-12-13 00:17:47 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-13 00:17:47 - INFO: Nikke-SignIn: 簽到成功
-2025-12-14 00:16:55 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-14 00:16:55 - INFO: Nikke-SignIn: 簽到成功
-2025-12-15 00:16:12 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-15 00:16:12 - INFO: Nikke-SignIn: 簽到成功
-2025-12-16 00:21:45 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-16 00:21:45 - INFO: Nikke-SignIn: 簽到成功
-2025-12-17 00:20:37 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-17 00:20:37 - INFO: Nikke-SignIn: 簽到成功
-2025-12-18 00:19:37 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-18 00:19:37 - INFO: Nikke-SignIn: 簽到成功
-2025-12-19 00:20:50 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-19 00:20:50 - INFO: Nikke-SignIn: 簽到成功
-2025-12-20 00:18:43 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-20 00:18:43 - INFO: Nikke-SignIn: 簽到成功
-2025-12-21 00:16:50 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-21 00:16:50 - INFO: Nikke-SignIn: 簽到成功
-2025-12-22 00:16:37 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-22 00:16:37 - INFO: Nikke-SignIn: 簽到成功
-2025-12-23 00:18:14 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-23 00:18:14 - INFO: Nikke-SignIn: 簽到成功
-2025-12-24 00:19:20 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-24 00:19:20 - INFO: Nikke-SignIn: 簽到成功
-2025-12-25 00:18:18 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-25 00:18:18 - INFO: Nikke-SignIn: 簽到成功
-2025-12-26 00:18:10 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-26 00:18:10 - INFO: Nikke-SignIn: 簽到成功
-2025-12-27 00:16:59 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-27 00:16:59 - INFO: Nikke-SignIn: 簽到成功
-2025-12-28 00:17:00 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-28 00:17:00 - INFO: Nikke-SignIn: 簽到成功
-2025-12-29 00:17:17 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-29 00:17:17 - INFO: Nikke-SignIn: 簽到成功
-2025-12-30 00:18:22 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-30 00:18:22 - INFO: Nikke-SignIn: 簽到成功
-2025-12-31 00:19:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2025-12-31 00:19:25 - INFO: Nikke-SignIn: 簽到成功
-2026-01-01 00:18:38 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-01 00:18:38 - INFO: Nikke-SignIn: 簽到成功
-2026-01-02 00:18:50 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-02 00:18:50 - INFO: Nikke-SignIn: 簽到成功
-2026-01-03 00:17:57 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-03 00:17:57 - INFO: Nikke-SignIn: 簽到成功
-2026-01-04 00:17:06 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-04 00:17:06 - INFO: Nikke-SignIn: 簽到成功
-2026-01-05 00:17:01 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-05 00:17:01 - INFO: Nikke-SignIn: 簽到成功
-2026-01-06 00:20:39 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-06 00:20:39 - INFO: Nikke-SignIn: 簽到成功
-2026-01-07 00:20:00 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-07 00:20:00 - INFO: Nikke-SignIn: 簽到成功
-2026-01-08 00:21:56 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-08 00:21:56 - INFO: Nikke-SignIn: 簽到成功
-2026-01-09 00:21:20 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-09 00:21:20 - INFO: Nikke-SignIn: 簽到成功
-2026-01-10 00:19:32 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-10 00:19:32 - INFO: Nikke-SignIn: 簽到成功
-2026-01-11 00:16:47 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-11 00:16:47 - INFO: Nikke-SignIn: 簽到成功
-2026-01-12 00:16:48 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-12 00:16:48 - INFO: Nikke-SignIn: 簽到成功
-2026-01-13 00:20:34 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-13 00:20:34 - INFO: Nikke-SignIn: 簽到成功
-2026-01-14 00:23:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-14 00:23:07 - INFO: Nikke-SignIn: 簽到成功
-2026-01-15 00:22:13 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-15 00:22:13 - INFO: Nikke-SignIn: 簽到成功
-2026-01-16 00:27:28 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-16 00:27:28 - INFO: Nikke-SignIn: 簽到成功
-2026-01-17 00:20:25 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-17 00:20:25 - INFO: Nikke-SignIn: 簽到成功
-2026-01-18 00:16:04 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-18 00:16:04 - INFO: Nikke-SignIn: 簽到成功
-2026-01-19 00:16:53 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-19 00:16:53 - INFO: Nikke-SignIn: 簽到成功
-2026-01-20 00:13:14 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-20 00:13:14 - INFO: Nikke-SignIn: 簽到成功
-2026-01-21 00:19:07 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-21 00:19:07 - INFO: Nikke-SignIn: 簽到成功
-2026-01-22 00:20:20 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-22 00:20:20 - INFO: Nikke-SignIn: 簽到成功
-2026-01-23 00:17:58 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-23 00:17:58 - INFO: Nikke-SignIn: 簽到成功
-2026-01-24 00:14:30 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-24 00:14:30 - INFO: Nikke-SignIn: 簽到成功
-2026-01-25 00:01:04 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-25 00:01:04 - INFO: Nikke-SignIn: 簽到成功
-2026-01-26 00:01:06 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
 2026-01-26 00:01:06 - INFO: Nikke-SignIn: 簽到成功
-2026-01-27 00:17:08 - INFO: HTTP Request: POST https://discord.com/api/v9/interactions "HTTP/2 204 No Content"
-2026-01-27 00:17:08 - INFO: Nikke-SignIn: 簽到成功2026-01-31 00:40:13 - INFO: Nikke-SignIn: 簽到成功
+2026-01-27 00:17:08 - INFO: Nikke-SignIn: 簽到成功
+2026-01-31 00:40:13 - INFO: Nikke-SignIn: 簽到成功
