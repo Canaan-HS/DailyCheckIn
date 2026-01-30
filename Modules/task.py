@@ -59,12 +59,14 @@ class CreateTask(CreateSend):
     def hoyolab_checkIn(self):
 
         state_parse = {
-            "GenshInimpact": lambda retcode: (
-                "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗"
-            ),
-            "HonkaiStarRail": lambda retcode: (
-                "簽到成功" if retcode == 0 else "已經簽到" if retcode == -5003 else "簽到失敗"
-            ),
+            "GenshInimpact": lambda retcode: {
+                0: "簽到成功",
+                -5003: "已經簽到",
+            }.get(retcode, "簽到失敗"),
+            "HonkaiStarRail": lambda retcode: {
+                0: "簽到成功",
+                -5003: "已經簽到",
+            }.get(retcode, "簽到失敗"),
             # "ZenlessZoneZero": lambda retcode: (
             #     "簽到成功" if retcode == 0 else "簽到失敗" if retcode == -500012 else "已經簽到"
             # ),
@@ -85,20 +87,17 @@ class CreateTask(CreateSend):
     def leve_checkIn(self):
 
         state_parse = {
-            "CheckIn": lambda code: (
-                "簽到成功"
-                if code == 0
-                else "已經簽到" if code == 1001009 else "簽到失敗" if code == 300001 else "參數錯誤"
-            ),
-            "StageCheckIn": lambda code: (
-                "簽到成功"
-                if code == 0
-                else (
-                    "已經簽到"
-                    if code == 1002007 or code == 1001009
-                    else "簽到失敗" if code == 300001 else "參數錯誤"
-                )
-            ),
+            "CheckIn": lambda code: {
+                0: "簽到成功",
+                1001009: "已經簽到",
+                300001: "簽到失敗",
+            }.get(code, "參數錯誤"),
+            "StageCheckIn": lambda code: {
+                0: "簽到成功",
+                1002007: "已經簽到",
+                1001009: "已經簽到",
+                300001: "簽到失敗",
+            }.get(code, "參數錯誤"),
         }
 
         async def factory():
