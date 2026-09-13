@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Clone Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
@@ -25,14 +25,16 @@ jobs:
           sudo timedatectl set-timezone Asia/Taipei
           echo "Current time: $(date)"
 
-      - name: Setting Up Python
-        uses: actions/setup-python@v5
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v10.1.0
         with:
-          python-version: "3.14.x"
-          cache: "pip"
+          enable-cache: true
+
+      - name: Setup Python
+        run: uv venv --python 3.14
 
       - name: Install Dependencies
-        run: pip install -r requirements.txt
+        run: uv pip install -r requirements.txt
 
       - name: Run Python
         env:
@@ -40,7 +42,7 @@ jobs:
           DiscordData: ${{ secrets.DISCORD_COOKIE }}
           LevelinfiniteData: ${{ secrets.LEVELINFINITE_COOKIE }}
         run: |
-          python main.py
+          .venv/bin/python main.py
 
       - name: Commit Log
         run: |
